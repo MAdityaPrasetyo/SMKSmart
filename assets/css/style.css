@@ -1,0 +1,621 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* navbar */
+  
+  .navbar {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fffdf3;
+  }
+  .navbar-brand {
+    padding-left: 50px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+  }
+  .logo {
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #2f2f2f;
+  }
+  .button {
+    background-color: #f2d16d;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 15px;
+    padding: 8px;
+  }
+  .navbar-nav {
+    color: #2f2f2f;
+  }
+  
+  .collapse {
+    padding-right: 50px;
+  }
+  
+  .nav-item {
+    color: #2f2f2f;
+    padding: 0px 20px;
+    font-weight: 500;
+    align-content: center;
+  }
+  
+  /* navbar */
+  
+  /* head */
+  .head {
+    background-color: #f2d230;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .judul {
+    font-weight: 800;
+    color: #f2f2f2;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .tulisan {
+    color: #2c2c2c;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  
+  .tombol {
+    padding-bottom: 20px;
+  }
+  .button2 {
+    background-color: #f2c335;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+  .button3 {
+    background-color: #f2f2f2;
+    color: #f2c335;
+    font-weight: 700;
+    border-radius: 15px;
+    border: #f2c335;
+    padding: 10px 20px;
+  }
+  
+  /* head */
+  
+  /* content */
+  .content1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .cover {
+    background-color: #fafafa;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+  }
+  
+  .atas {
+    color: #ecc609;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .judul2 {
+    color: #505050;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+  }
+  
+  .bawah {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+  }
+  .button4 {
+    color: #f2d230;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 20px;
+    border-color: #f2d230;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  /* content2 */
+  
+  .content2 {
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+  }
+  
+  .portofolio {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+  .j3 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #f2d230;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .t3 {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+  }
+  
+  .row.isiport {
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #f2d230;
+    box-shadow: 0px 4px 4px 0px #fff;
+    padding: 60px 40px 60px 40px;
+    margin: 0;
+  }
+  
+  .button5 {
+    background-color: #f2f2f2;
+    color: #f2c335;
+    font-weight: 700;
+    border-radius: 15px;
+    border: #f2c335;
+    padding: 10px 20px;
+  }
+  
+  .tombol3 {
+    padding-top: 50px;
+    width: 10px;
+    height: 20px;
+  }
+  
+  /* partnership */
+  
+  .partnership {
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 25px;
+  }
+  
+  .partnership2 {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .j4 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #f2d230;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .row.partner {
+    padding-top: 25px;
+    padding-bottom: 80px;
+  }
+  
+  .row.partner img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* email add */
+  .emailadd {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #f2c335;
+  }
+  
+  .row.join {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .j5 {
+    padding-top: 20px;
+    color: #f2f2f2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 20px;
+  }
+  
+  .t6 {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .row.join2 {
+    padding-top: 50px;
+  }
+  
+  .eadd {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 120px 10px 10px;
+    border-style: none;
+  }
+  
+  .btn.bjoin2 {
+    border-radius: 20px;
+    background: #f2d16d;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  /* Footer */
+  /* CSS untuk mengatur tampilan footer utama */
+  .main-footer {
+    background-color: #ffffff;
+    color: #3e3e3e;
+    padding: 20px 0;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* CSS untuk mengatur tampilan logo di footer utama */
+  .footer-logo {
+    max-width: 100px; /* Ukuran maksimum logo */
+  }
+  
+  /* CSS untuk mengatur tampilan tautan di footer utama */
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #3e3e3e;
+    text-decoration: none;
+  }
+  
+  /* CSS untuk mengatur tampilan nama perusahaan di footer utama */
+  .company-name {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* CSS untuk mengatur tampilan komponen "Recent Blog" */
+  .recent-blog {
+    color: #3e3e3e;
+  }
+  
+  /* CSS untuk mengatur tampilan div secondary footer (copyright dan medsos) */
+  .secondary-footer {
+    background-color: #777777;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* CSS untuk mengatur tampilan ikon media sosial */
+  .social-icons {
+    text-align: right; /* Mengatur ikon media sosial di pojok kanan */
+  }
+  
+  .social-icons a {
+    color: #3e3e3e;
+    margin-left: 10px;
+    transition: color 0.3s; /* Efek transisi warna */
+  }
+  
+  .social-icons2 a {
+    color: #ffffff;
+    margin-left: 10px;
+    transition: color 0.3s; /* Efek transisi warna */
+  }
+  
+  .social-icons a:hover {
+    color: #000; /* Warna saat kursor diarahkan ke ikon */
+  }
+  
+  .social-icons2 a:hover {
+    color: #000; /* Warna saat kursor diarahkan ke ikon */
+  }
+  
+  .logo2 {
+    color: #3e3e3e;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  @media (max-width: 576px) {
+    /* navbar */
+    .navbar-brand img {
+      width: 40px; /* Mengubah lebar gambar */
+      height: 40px; /* Mengubah tinggi gambar */
+    }
+    .logo {
+      font-size: 14px; /* Mengubah ukuran font logo */
+      margin-top: 10px; /* Mengubah margin atas logo */
+    }
+    .button {
+      font-size: 12px; /* Mengubah ukuran font tombol */
+      padding: 6px; /* Mengubah padding tombol */
+    }
+    .navbar-nav .nav-item {
+      padding: 0px 10px; /* Mengubah padding item navbar */
+      font-size: 12px; /* Mengubah ukuran font item navbar */
+    }
+    .navbar-brand {
+      padding-left: 10px; /* Tambahkan padding kiri */
+      padding-right: 10px; /* Tambahkan padding kanan */
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+    }
+    .navbar-toggler-icon {
+      width: 10px; /* Ubah lebar hamburger menu */
+      height: 10px; /* Ubah tinggi hamburger menu */
+    }
+  
+    /* head */
+    .head {
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+    .judul {
+      font-size: 24px; /* Ubah ukuran judul */
+      margin-top: 30px; /* Ubah margin atas judul */
+      padding-bottom: 20px; /* Ubah padding bawah judul */
+    }
+    .tulisan {
+      font-size: 10px; /* Ubah ukuran font tulisan */
+      padding-bottom: 20px; /* Ubah padding bawah tulisan */
+      margin: 0;
+    }
+    .button2 {
+      font-size: 10px; /* Ubah ukuran font tombol 2 */
+      padding: 6px; /* Ubah padding tombol 2 */
+      margin-right: 10px; /* Ubah margin kanan tombol 2 */
+    }
+    .button3 {
+      font-size: 10px; /* Ubah ukuran font tombol 3 */
+      padding: 6px 12px; /* Ubah padding tombol 3 */
+    }
+  
+    /* content 1 */
+    .content1 {
+      padding-top: 2px;
+      padding-bottom: 20px;
+    }
+    .atas {
+      padding-top: 10px;
+      font-size: medium;
+      padding-bottom: 10px;
+    }
+    .judul2 {
+      font-size: x-large;
+      padding-top: 10px;
+    }
+    .bawah {
+      font-size: small;
+      padding-bottom: 10px;
+    }
+    .button4 {
+      padding: 5px 10px;
+      font-size: small;
+    }
+  
+    /* content2 */
+    .t3 {
+      padding-bottom: 10px;
+      font-size: medium;
+    }
+    .row.isiport {
+      align-items: center;
+    }
+  
+    /* partnership */
+    .partnership {
+      padding: 0px;
+    }
+    .row.partner {
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .partneimg {
+      margin-top: -50px;
+    }
+  
+    /* emailadd */
+    .emailadd {
+      padding-bottom: 25px;
+      padding-top: 25px;
+      background-color: #f2c335;
+    }
+  
+    .row.join {
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    .j5 {
+      padding-top: 20px;
+      color: #f2f2f2;
+      font-size: x-large;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+  
+    .t6 {
+      color: #f2f2f2;
+      font-size: medium;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+    }
+  
+    .row.join2 {
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .eadd {
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      border-style: none;
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+    }
+  
+    .btn.bjoin2 {
+      margin-top: 20px;
+      border-radius: 20px;
+      background: #f2d16d;
+      color: #fff;
+      font-size: small;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 10px 30px;
+    }
+    /* Footer */
+    /* CSS untuk mengatur tampilan footer utama */
+    .main-footer {
+      background-color: #ffffff;
+      color: #3e3e3e;
+      padding: 20px 0;
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    /* CSS untuk mengatur tampilan logo di footer utama */
+    .footer-logo {
+      max-width: 100px; /* Ukuran maksimum logo */
+    }
+  
+    /* CSS untuk mengatur tampilan tautan di footer utama */
+    .footer-links ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .footer-links ul li {
+      margin-bottom: 10px;
+    }
+  
+    .footer-links ul li a {
+      color: #3e3e3e;
+      text-decoration: none;
+    }
+  
+    /* CSS untuk mengatur tampilan nama perusahaan di footer utama */
+    .company-name {
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    /* CSS untuk mengatur tampilan komponen "Recent Blog" */
+    .recent-blog {
+      color: #3e3e3e;
+    }
+  
+    /* CSS untuk mengatur tampilan div secondary footer (copyright dan medsos) */
+    .secondary-footer {
+      background-color: #777777;
+      color: #fff;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    /* CSS untuk mengatur tampilan ikon media sosial */
+    .social-icons {
+      text-align: right; /* Mengatur ikon media sosial di pojok kanan */
+    }
+  
+    .social-icons a {
+      color: #3e3e3e;
+      transition: color 0.3s; /* Efek transisi warna */
+    }
+  
+    .social-icons2 a {
+      color: #ffffff;
+      margin-left: 10px;
+      transition: color 0.3s; /* Efek transisi warna */
+    }
+  
+    .social-icons a:hover {
+      color: #000; /* Warna saat kursor diarahkan ke ikon */
+    }
+  
+    .social-icons2 a:hover {
+      color: #000; /* Warna saat kursor diarahkan ke ikon */
+    }
+  
+    .logo2 {
+      color: #3e3e3e;
+      font-family: Montserrat;
+      font-size: medium;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .h3 {
+      padding-top: 20px;
+    }
+  }
+  

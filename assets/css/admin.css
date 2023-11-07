@@ -1,0 +1,191 @@
+/* Reset beberapa gaya bawaan */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Gaya untuk tombol "Ubah" (biru) */
+td a[href*="ubah.php"] {
+  background-color: #f2d16d;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/* Gaya untuk tombol "Hapus" (merah) */
+td a[href*="hapus.php"] {
+  background-color: #ff5555;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f2d16d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2c335;
+  color: white;
+}
+
+td {
+  color:#f3ba0d;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f2d16d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f2c335;
+}
+
+/* Gaya khusus untuk tampilan admin */
+
+/* Gaya untuk tombol "Tambah Portofolio" */
+a[href="tambah.php"] {
+  display: inline-block;
+  background-color: #f2d16d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol "Ubah" dan "Hapus" */
+td a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Gaya untuk form pencarian */
+form {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+}
+
+button[type="submit"] {
+  background-color: #f2d16d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #f2c335;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #f2c335;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #f2c335;
+  border-radius: 5px;
+}
+
+.search-input::placeholder {
+  color: #f2d16d;
+}
+
+input[type="text"]:focus {
+  border-color: #f2d16d; /* Ganti dengan warna yang Anda inginkan saat input difokuskan */
+}
+
+
